@@ -1,0 +1,93 @@
+#440 Reproducibility Capstone Project
+
+<!-- This is an Rmd comment. -->
+<!--
+You can make comments several lines long by inserting
+the text in between the the start and the end of the 
+comment.
+
+Comments are where I'll tell you what to do. You should
+use the space directly below the comments to do what
+the comment asks. You should also describe what you're
+doing to make it obvious to the reader so they can
+easily follow your logic in a fully reproducible way.
+For any statistical tests you run, you should explain
+the results in plain English and present the statistics
+as you would in an APA style manuscript. For any symbols
+you don't know how to use/can't use, feel free to use the name
+instead (e.g. alpha)
+--> 
+First we need to set the working Directory.
+
+<!-- Load the Results.csv data file. -->
+Then we need to load the data.
+```{r}
+dat<-read.csv("Results.csv")
+```
+
+<!-- 
+Check the structure. Fix any variables that aren't right.
+-->
+Let's take a look at the data.
+```{r}
+str(dat)
+```
+Response should be a Factor not an Integer, so let's fix that real quick.
+```{r}
+dat$Response<-factor(dat$Response)
+```
+And check our work.
+```{r}
+str(dat)
+```
+Okay that worked, yes! There are some Responses that have a NA. So since we want to exclude that data, we will get rid of the NAs to avoid confusion. 
+```{r}
+dat<-dat[!is.na(dat$Response),]
+```
+Great, now we will use the data to see if Response is independent of Condition. To do this I first need to run a Chi-Square of independence to test to the hypothesis that Response and Condition are independent.
+
+```{r}
+chisq.test(dat$Condition,dat$Response)
+```
+Pearson's Chi-squared test
+
+data:  dat$Condition and dat$Response
+X-squared = 9.6903, df = 3, p-value = 0.02139
+
+---Response choice is dependent of condition,Chi-Square(3)=9.69, p=.02
+
+Now let's create a graph
+```{r}
+library(dplyr)
+library(ggplot2)
+temp<-dat%>%group_by(Condition,Response)%>%
+    summarize(frequency=length(Response))
+library("gplots")
+col1=col2hex("deeppink")
+col2=col2hex("deepskyblue2")
+f<-ggplot(temp, aes(x=Response, y=frequency, fill=Condition))+
+    geom_bar(stat="identity",position=position_dodge())+
+    scale_fill_manual(values=c(col1,col2),name="Condition",breaks=c("Control","Conformity"),labels=c("Control", "Conformity"))+
+    theme(legend.key=element_rect(color="black"))+
+    ggtitle("Frequency of Responses by Condition")+
+    labs(x="Selected Response",y="Frequency of Responses")+
+    theme(plot.title=element_text(size=15,face="bold",vjust=.5))+
+    theme(axis.title.x=element_text(size=12,face="bold",vjust=-.25))+
+    theme(axis.title.y=element_text(size=12,face="bold",vjust=1))+
+    theme(axis.text.x=element_text(size=10,face="bold",color="black"))+
+    theme(axis.text.y=element_text(size=10,face="bold",color="black"))+
+    theme(panel.border=element_blank(),axis.line=element_line())+
+    theme(panel.grid.major.x=element_blank())+
+    theme(panel.grid.major.y=element_line(color="darkgrey"))+
+    theme(panel.grid.minor.y=element_blank())+
+    theme(legend.position=c(.8,.80))+
+    theme(legend.background=element_blank())+
+    theme(legend.background=element_rect(color="black"))+
+    theme(legend.title=element_blank())+
+    theme(legend.title=element_text(size=12))+
+    theme(legend.title.align=.5)+
+    theme(legend.text=element_text(size=10,face="bold"))
+f
+```
+
+The Y axis displays how many times (frequency) the particpants answered the mathematical equation with the selected responses. There were four answers particpants could choose from; 7, 11, 12, and 14.The control condition is highlighted in blue, and the conformity condition is highlighted in pink. The conformity condition was manipulated to include peer influence next to each response the particpants could choose from.

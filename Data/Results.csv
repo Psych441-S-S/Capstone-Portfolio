@@ -1,0 +1,123 @@
+Sex,Age,Education,Condition,Response
+Female,18 to 24,Some college but no degree,Control,11
+Female,18 to 24,Some college but no degree,Conformity,14
+Female,35 to 44,Associate degree,Control,14
+Male,18 to 24,Some college but no degree,Control,7
+Female,25 to 34,Some college but no degree,Control,7
+Male,18 to 24,Some college but no degree,Conformity,14
+Female,18 to 24,Some college but no degree,Conformity,14
+Male,25 to 34,Some college but no degree,Control,7
+Female,18 to 24,Some college but no degree,Control,11
+Female,18 to 24,Some college but no degree,Conformity,11
+Female,18 to 24,Some college but no degree,Control,11
+Female,25 to 34,Associate degree,Control,12
+Female,25 to 34,Associate degree,Control,7
+Female,25 to 34,Some college but no degree,Control,12
+Male,25 to 34,Some college but no degree,Conformity,7
+Female,35 to 44,Associate degree,Control,11
+Male,35 to 44,Some college but no degree,Conformity,7
+Female,18 to 24,Some college but no degree,Control,14
+Female,45 to 54,Associate degree,Conformity,11
+Female,25 to 34,Associate degree,Control,7
+Female,35 to 44,Associate degree,Conformity,7
+Female,25 to 34,Bachelor degree,Conformity,11
+Male,45 to 54,Some college but no degree,Conformity,7
+Female,18 to 24,Some college but no degree,Control,11
+Female,18 to 24,Some college but no degree,Control,7
+Female,35 to 44,Associate degree,Conformity,7
+Female,18 to 24,Associate degree,Conformity,11
+Male,25 to 34,Some college but no degree,Control,7
+Female,35 to 44,Associate degree,Conformity,14
+Female,25 to 34,Associate degree,Control,7
+Female,25 to 34,Associate degree,Control,11
+Male,18 to 24,Some college but no degree,Control,12
+Female,18 to 24,Some college but no degree,Conformity,14
+Female,18 to 24,Some college but no degree,Control,11
+Female,25 to 34,Some college but no degree,Conformity,11
+Female,25 to 34,Associate degree,Control,7
+Female,25 to 34,Associate degree,Conformity,7
+Female,25 to 34,Some college but no degree,Conformity,11
+Male,25 to 34,Associate degree,Control,7
+Female,25 to 34,Associate degree,Control,11
+Female,25 to 34,Associate degree,Control,11
+Female,18 to 24,Some college but no degree,Control,7
+Female,25 to 34,Some college but no degree,Conformity,14
+Female,25 to 34,Associate degree,Control,14
+Female,25 to 34,Associate degree,Control,7
+Female,45 to 54,Associate degree,Conformity,7
+Female,35 to 44,"High school degree or equivalent (e.g., GED)",Conformity,11
+Female,25 to 34,Associate degree,Conformity,7
+Female,25 to 34,Associate degree,Conformity,14
+Female,35 to 44,Some college but no degree,Control,11
+Female,18 to 24,"High school degree or equivalent (e.g., GED)",Conformity,11
+Female,18 to 24,Associate degree,Control,7
+Female,18 to 24,Associate degree,Control,11
+Female,18 to 24,Some college but no degree,Control,7
+Female,25 to 34,Some college but no degree,Control,12
+Female,18 to 24,Some college but no degree,Conformity,12
+Female,25 to 34,Some college but no degree,Control,12
+Male,18 to 24,Some college but no degree,Conformity,11
+Female,18 to 24,Some college but no degree,Control,
+Female,18 to 24,Some college but no degree,Control,7
+Female,25 to 34,Associate degree,Conformity,11
+Female,25 to 34,Associate degree,Control,12
+,,,Conformity,14
+,55 to 64,Some college but no degree,Control,7
+Female,25 to 34,Associate degree,Control,12
+Female,25 to 34,Bachelor degree,Control,14
+Female,25 to 34,"High school degree or equivalent (e.g., GED)",Control,11
+Female,25 to 34,"High school degree or equivalent (e.g., GED)",Conformity,7
+Male,45 to 54,Bachelor degree,Control,7
+Male,25 to 34,"High school degree or equivalent (e.g., GED)",Control,11
+Female,25 to 34,Bachelor degree,Control,7
+Female,25 to 34,Some college but no degree,Conformity,7
+Male,25 to 34,Some college but no degree,Control,7
+Female,35 to 44,"High school degree or equivalent (e.g., GED)",Conformity,11
+Female,25 to 34,Bachelor degree,Conformity,14
+Female,35 to 44,Some college but no degree,Conformity,11
+Male,25 to 34,Some college but no degree,Conformity,7
+Male,25 to 34,Bachelor degree,Conformity,11
+Female,35 to 44,Associate degree,Conformity,14
+Female,45 to 54,Some college but no degree,Conformity,14
+Female,25 to 34,Bachelor degree,Conformity,7
+Female,35 to 44,Graduate degree,Conformity,11
+Female,35 to 44,Graduate degree,Conformity,11
+Female,35 to 44,Associate degree,Conformity,7
+Male,25 to 34,Bachelor degree,Control,7
+Female,35 to 44,Graduate degree,Control,11
+Male,18 to 24,Some college but no degree,Conformity,11
+Female,45 to 54,Associate degree,Conformity,7
+Female,45 to 54,Graduate degree,Conformity,7
+Female,65 to 74,Associate degree,Control,14
+Female,25 to 34,Some college but no degree,Control,14
+Female,35 to 44,Graduate degree,Conformity,11
+Female,35 to 44,Graduate degree,Control,11
+Female,25 to 34,Bachelor degree,Control,7
+Female,18 to 24,Bachelor degree,Conformity,
+Female,25 to 34,Bachelor degree,Conformity,11
+Female,75 or older,"High school degree or equivalent (e.g., GED)",Control,7
+,65 to 74,Bachelor degree,Conformity,7
+Male,55 to 64,Graduate degree,Conformity,11
+Female,45 to 54,"High school degree or equivalent (e.g., GED)",Control,7
+Male,45 to 54,Some college but no degree,Control,11
+Female,55 to 64,Graduate degree,Control,7
+Male,25 to 34,Associate degree,Control,11
+Female,18 to 24,Some college but no degree,Conformity,14
+Female,25 to 34,Some college but no degree,Conformity,11
+Male,45 to 54,Graduate degree,Conformity,11
+Male,18 to 24,Some college but no degree,Control,11
+Female,18 to 24,Some college but no degree,Control,7
+Female,25 to 34,Associate degree,Conformity,11
+Female,25 to 34,"High school degree or equivalent (e.g., GED)",Conformity,12
+Female,25 to 34,Some college but no degree,Conformity,14
+Male,25 to 34,Some college but no degree,Conformity,11
+Female,25 to 34,Bachelor degree,Conformity,11
+Male,25 to 34,Some college but no degree,Conformity,11
+Female,25 to 34,Bachelor degree,Control,7
+Female,25 to 34,Bachelor degree,Control,7
+Female,25 to 34,Some college but no degree,Conformity,14
+Male,25 to 34,Bachelor degree,Control,11
+Male,55 to 64,Some college but no degree,Control,11
+Female,25 to 34,Associate degree,Conformity,7
+Female,25 to 34,Bachelor degree,Conformity,14
+Male,35 to 44,Graduate degree,Conformity,11
